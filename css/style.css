@@ -26,6 +26,18 @@ body {
 	width:1024px;
 	margin:0 auto;
 }
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+
 /***********************************************************************/
 a {
 	text-decoration:none;
